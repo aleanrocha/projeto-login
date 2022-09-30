@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main > section#login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 680px;
+        height: 380px;
+    }
+    section#login > #img {
+        height: 100%;
+        width: 40%;
+    }
+    section#login > #form {
+        width: 60%;
+    }
+}
+@media screen and (min-width: 992px) {
+    main > section#login {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: 950px;
+        height: 380px;
+    }
+    section#login > #img {
+        height: 100%;
+        width: 50%;
+    }
+    section#login > #form {
+        width: 50%;
+    }
+}

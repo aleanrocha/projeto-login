@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <script src="https://kit.fontawesome.com/17fd4cf7b1.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img"></div>
+            <div id="form">
+                <form action="login.php" method="post" autocomplete="on">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta.</p>
+                    <div class="campo">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
+                        <label for="iemail">Login</label>
+                    </div>
+                    <div class="campo">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="24">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a id="btn" href="#">
+                        Esqueci a senha <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

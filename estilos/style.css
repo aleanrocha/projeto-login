@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: #0266ac;
+    background-image: linear-gradient(60deg, rgba(2,0,36,1) 0%, rgba(45,45,155,1) 0%, rgba(53,221,255,0.946) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+main > section#login {
+    background-color: #fff;
+    width: 80vw;
+    max-width: 320px;
+    height: 530px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.460);
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+    
+}
+section#login > #img {
+    display: block;
+    background: #0266ac no-repeat url('https://github.com/professorguanabara/projeto-login/blob/master/imagens/metal.jpg?raw=true') bottom center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+section#login > #form {
+    display: block;
+    padding: 10px;
+}
+form > h1 {
+    color: #0266ac;
+    text-align: center;
+    margin-top: 10px;
+}
+form > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: .9em;
+    margin: 10px 0;
+}
+form > div.campo {
+    background-color: lightblue;
+    height: 45px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+form > div.campo > i {
+    height: 100%;
+    width: 35px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+form > div.campo > input {
+    background-color: lightcyan;
+    font-size: .9em;
+    height: 100%;
+    width: calc(100% - 39px);
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+form > div.campo > input:focus-within {
+    background-color: #fff;
+}
+div.campo > label {
+    display: none;
+}
+form > input[type=submit], a#btn {
+    display: block;
+    background-color: #0266ac;
+    color: #fff;
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+form > input[type=submit]:hover {
+    background-color: #004e85;
+}
+form > a#btn {
+    background-color: #fff;
+    color: #0200ac;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0;
+    border: 1px solid #0188ac;  
+}
+form > a#btn:hover {
+    background-color: #0188ac;
+    color: #fff;
+}
+form > a > i {
+    font-size: .8em;
+}
