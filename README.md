@@ -13,5 +13,5 @@ Projeto tela de login utilizando **HTML** e **CSS**
 ## Visualizar
 
 <div>
-  <a href="https://aleanrocha.github.io/projeto-login/"><img alt"img-ver" src="https://img.shields.io/badge/Ver-2CA5E0?style=for-the-badge&logo=ver&logoColor=white"></a>
+  <a target="_blank" href="https://aleanrocha.github.io/projeto-login/"><img alt"img-ver" src="https://img.shields.io/badge/Ver-2CA5E0?style=for-the-badge&logo=ver&logoColor=white"></a>
 </div>
